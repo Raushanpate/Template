@@ -1,0 +1,117 @@
+.about p{
+	font-size: 24px;
+	text-align: justify;
+	font-family: arial;
+}
+.about h1{
+		color: #2E4053;
+		font-family: arial;
+}
+.subject h2{
+	color:#FF4500;
+	font-family: arial;
+}
+.subject h1{
+	color:#2E4053 ;
+	font-family: arial;
+}
+
+.box{
+}
+.box-containt{
+	position: relative;
+}
+.box img{
+	width: 100%;
+	height: 100%;
+	object-fit:cover;
+}
+.containt{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.box-containt img:hover{
+	transform: scale(1.1);
+}
+.card{
+	position: relative;
+}
+.card img{
+	object-fit:cover;
+}
+.icon{
+	position:absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+	background:black;
+	color: white;
+}
+.t{
+	background:#F1F3F6;
+	font-family: arial;
+}
+.icon i{
+	font-size: 15px;
+	padding: 1px;
+	height: 40px;
+	width: 40px;
+	margin-top: 150px;
+	padding-top: 10px;
+	position: relative;
+	border: 1px solid white;
+	border-radius: 10px;
+
+}
+.icon i:hover{
+	background: white;
+	color:black;
+}
+.card:hover .icon{
+	opacity:0.8;
+	margin-bottom: 100px;
+}
+.main{
+	background: #2E4053;
+	position: absolute;
+}
+.f{
+	font-family: Arial;
+}
+.f1{
+	font-family:Arial;
+}
+.f2{
+	font-family:Arial;
+}
+.iconf i{
+	border: 1px solid white;
+	font-size: 18px;
+	padding-top: 8px;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	border-radius: 10px;
+	margin-left: 5px;
+}
+.iconf i:hover{
+	background: white;
+	color: black;
+}
+.f2 p{
+	text-align: justify;
+}
+.f2 input{
+	height: 56px;
+}
+.menue a{
+	position: relative;
+}
+.menue a{
+	font-size: 26px;
+	color: #FF4500;
+}
